@@ -18,7 +18,7 @@ score = 0
 paddle_a = turtle.Turtle() # create object
 paddle_a.speed(0) # animation speed (Not moving speed)
 paddle_a.shape("square")
-paddle_a.shapesize(stretch_wid=5, stretch_len=2)
+paddle_a.shapesize(stretch_wid=5, stretch_len=1)
 paddle_a.color("blue")
 paddle_a.penup()
 paddle_a.goto(-350,0)
